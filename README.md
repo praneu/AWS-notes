@@ -1,6 +1,5 @@
 # AWS-notes
 
-# S3 Bucket:
--fhfhgh
-hjkhkjhkj<br>
-jhhhkjhj
+# S3 Object Encryption
+- Server-Side Encryption(SSE) <br>
+
