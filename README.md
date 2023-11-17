@@ -1,6 +1,6 @@
-# AWS-notes
+# AWS-notes-S3 security
 
-# S3 Object Encryption
+# S3 Encryption
 - Server-Side Encryption(SSE) <br>
 --Server-Side Encryption with Amazon S3-Managed Keys (SSE-S3)
     Header must be set to Must set header "x-amz-server-side-encryption": "AES256" to enable the encryption
