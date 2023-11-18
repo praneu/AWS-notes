@@ -39,3 +39,8 @@
      visiting the main origin.
      The requests won’t be fulfilled unless the other origin allows for the 
      requests, using CORS Headers (also called the Access-Control-Allow-Origin)
+-- S3 Access log
+      S3 Access log are use to access the logs from any account. Any request made will be authozized or 
+      denied will be logged into the S3 Bucket.
+      Do not set the logging bucket to be the monitor bucket as is creates a logging loop growing the bucket 
+      exponentially. 
