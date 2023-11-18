@@ -33,7 +33,7 @@
     an encrypted connection,
     and so, therefore, any user trying to use HTTP
     on the bucket is going to be blocked.<br>
-- S3 CORS
+# S3 CORS
 -- CORS= Cross ORiginal Resource Sharing
      Web Browser based mechanism of security to allow or deny requests to other origins while 
      visiting the main origin.
