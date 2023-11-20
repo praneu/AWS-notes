@@ -46,10 +46,10 @@
       exponentially. <br>
 # Advanced Storage on AWS
 - AWS Snow family
- - Data migration: Snowcone, Snowball Edge, Snowmobile
+ - Data migration: Snowcone, Snowball Edge, Snowmobile <br>
     Snowcone (& Snowcone SSD): Small, portable computing, anywhere, rugged & secure, withstands harsh environments.
         Snowcone: 8 tb of HDD software , Snowcone SSD- 14 TB of SSD storage
-        Use AWS DataSync
+        Use AWS DataSync <br>
     SnowBall Edge:
        Snowaball Edge Storgae optmized : 80 tb of HDD capacity
        Snowaball Edge Compute optmized : 42 tb of HDD capacity or 28 tb NVMe capicity <br>
@@ -59,11 +59,11 @@
  - Edge Computing: Snowcone, SnowBall Edge
      Snowcone & snowcone SSD: 
       2 CPUs, 4 GB of memory, wired or wireless access
-      USB-C power using a cord or the optional battery
+      USB-C power using a cord or the optional battery <br>
      Snowball Edge- Compute Optimized: 
        104 vCPUs, 416 GiB of RAM
        Optional GPU
-       Storage Clustering available (up to 16 nodes)
+       Storage Clustering available (up to 16 nodes) <br>
       Snowball Edge - Storage optimized:
         Up to 40 vCPUs, 80 GiB of RAM, 80 TB storage
         Long-term deployment options: 1 and 3 years discounted pricing <br>
