@@ -54,7 +54,8 @@
        Snowaball Edge Storgae optmized : 80 tb of HDD capacity
        Snowaball Edge Compute optmized : 42 tb of HDD capacity or 28 tb NVMe capicity <br>
 
-   Snowmobile : Trnasfer data greater than 100 PB, high security, better than snowball<br>
+   Snowmobile : Transfer data greater than 100 PB, high security, better than snowball<br>
+   
  - Edge Computing: Snowcone, SnowBall Edge
      Snowcone & snowcone SSD: 
       2 CPUs, 4 GB of memory, wired or wireless access
@@ -72,5 +73,20 @@
 
  -- <b>Snowball into Glacier</b>: Snowball cannot be import to glacier directly, it must use Amazon S3 first, in combination with an S3 lifecycle policy
 
- - Amazon FSX 
+ - Amazon FSX
+   -- Launch 3rd party high-performance file systems on AWS and is a fully managed services.<br>
+
+   FSX for Windows file server: Fully managed Windows file system share driv, Can be mounted on Linux EC2 instances, Supports Microsoft's Distributed File System (DFS) Namespaces.
+                                Has both SSD and HDD for storage option. Can be accessed from on-permises infastructure, configured to be multi AZ, daily data backup to S3 bucket.
+   FSX for Luster: Lustre is a type of parallel distributed file system, for large-scale computing. Used for Machine Learning, High Performance Computing (HPC). Has seamless intrgration eith S3
+                   and Can be used from on-premises servers (VPN or Direct Connect).<br>
+      File system distribution:
+           Scratch file system: Temporary storage, Data is not replicated, Usage: short-term processing, optimize costs
+           Persistant file system: Long-term storage, Data is replicated within same AZ, Usage: long-term processing, sensitive data. <br>
+           
+   FSX for NetApp ONTAP: Managed NetApp ONTAP on AWS, File System compatible with NFS, SMB, iSCSI protocol, Point-in-time instantaneous cloning (helpful for testing new workloads).
+
+   FSX for OpenZFS: File System compatible with NFS (v3, v4, v4.1, v4.2), Point-in-time instantaneous cloning (helpful for testing new workloads).
+
+   
      
