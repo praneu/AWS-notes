@@ -51,12 +51,9 @@
         Snowcone: 8 tb of HDD software , Snowcone SSD- 14 TB of SSD storage
         Use AWS DataSync
     SnowBall Edge:
-   <li>
        Snowaball Edge Storgae optmized : 80 tb of HDD capacity
-   </li>
-   <li>
-       Snowaball Edge Compute optmized : 42 tb of HDD capacity or 28 tb NVMe capicity
-   </li>
+       Snowaball Edge Compute optmized : 42 tb of HDD capacity or 28 tb NVMe capicity <br>
+
    Snowmobile : Trnasfer data greater than 100 PB, high security, better than snowball<br>
  - Edge Computing: Snowcone, SnowBall Edge
      Snowcone & snowcone SSD: 
