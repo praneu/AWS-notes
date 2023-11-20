@@ -43,4 +43,20 @@
       S3 Access log are use to access the logs from any account. Any request made will be authozized or 
       denied will be logged into the S3 Bucket.
       Do not set the logging bucket to be the monitor bucket as is creates a logging loop growing the bucket 
-      exponentially. 
+      exponentially. <br>
+# Advanced Storage on AWS
+--AWS Snow family
+ - Data migration: Snowcone, Snowball Edge, Snowmobile
+    Snowcone (& Snowcone SSD): Small, portable computing, anywhere, rugged & secure, withstands harsh environments.
+        Snowcone: 8 tb of HDD software , Snowcone SSD- 14 TB of SSD storage
+        Use AWS DataSync
+    SnowBall Edge:
+   <li>
+       Snowaball Edge Storgae optmized : 80 tb of HDD capacity
+   </li>
+   <li>
+       Snowaball Edge Compute optmized : 42 tb of HDD capacity or 28 tb NVMe capicity
+   </li>
+   
+ - Edge Computing: Snowcone, SnowBall Edge
+    
