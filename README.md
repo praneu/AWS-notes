@@ -1,3 +1,21 @@
+# EC2 Instances 
+- On demand instances<br>
+ -- Short term and un-interrupted workloads.
+- Reserved instances <br>
+ -- Long term work load
+ -- Reserved Instance’s Scope – Regional or Zonal
+- Spot instances <br>
+ --  short workloads, cheap, can lose instances (less reliable)
+ --  MOST cost-efficient instances
+ -- Useful for workloads that are resilient to failure like batch jobs, data analysis, image processing
+- Dedicated hosts
+ -- compliance requirements and use your existing server-bound software license
+- Dedicated Instances
+ -- pay, by the hour, for instances that run on single-tenant hardware
+- On-Demand Capacity Reservations <br>
+  -- Suitable for short-term, uninterrupted workloads that needs to be in a specific AZ.
+
+
 # AWS-notes-S3 security
 
 # S3 Encryption
